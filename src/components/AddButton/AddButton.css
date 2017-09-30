@@ -1,0 +1,23 @@
+.button {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background: #03A9F4;
+    box-shadow: 3px 3px 10px 0 rgba(4, 168, 244, 0.35);
+}
+
+.button__icon {
+    position: absolute;
+    top: 7px;
+    left: 19px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,24 @@
+.wrapper {
+    width: 450px;
+    margin: auto;
+    position: relative;
+    height: calc(100% - 70px);
+
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 35px;
+    height: 90px;
+}
+
+.list {
+    border: 1px solid #f1f1f1;
+    height: calc(100% - 90px);
+    padding: 20px 0 40px;
+    border-radius: 5px;
+    overflow: auto;
+    box-shadow: 1px 2px 45px 1px rgba(204, 204, 204, 0.25);
+    background-color: #ffffff;
+}
