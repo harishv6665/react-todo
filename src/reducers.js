@@ -1,9 +1,10 @@
 const initialState = {
     todoItems: [
-        { id: 0, title: 'Setup project', done: false },
-        { id: 1, title: 'Add ', done: false },
-        { id: 2, title: 'Three', done: true },
-        { id: 3, title: 'Four', done: false },
+        { id: 0, title: 'Pay phone bill', done: true },
+        { id: 1, title: 'Meeting with Jack porter', done: false },
+        { id: 2, title: 'Get Onboarding designs', done: true },
+        { id: 3, title: 'Read Invision article', done: false },
+        { id: 4, title: 'Give KT of Razorthink website', done: false },
     ],
 };
 
