@@ -13,8 +13,9 @@ class NewTodoCard extends React.Component {
 
     handleKeyPress(event) {
         if(event.keyCode === 13) {
-            this.props.addTodo(this.state.inputValue);
             event.preventDefault();
+            this.props.addTodo(this.state.inputValue);
+            this.props.hideNewCard();
         }
         return false;
     }
@@ -24,7 +25,7 @@ class NewTodoCard extends React.Component {
             <li className={styles.newTodo}>
             <input className={styles.newTodo__input}
                    type="text"
-                   placeholder="Press enter after entering title"
+                   placeholder="Press enter to add task"
                    autoFocus={true}
                    onChange={(event) => {this.setState({inputValue: event.target.value})}}
                    onKeyDownCapture={

@@ -15,6 +15,10 @@ html, body, #root {
     width: 100%;
 }
 
+#root {
+    padding-top: 40px;
+}
+
 button {
     cursor: pointer;
 }

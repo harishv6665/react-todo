@@ -17,7 +17,9 @@ module.exports = {
         main,
         vendor: [
             'react-dom',
+            'react-redux',
             'react',
+            'redux',
         ],
     },
     output: {

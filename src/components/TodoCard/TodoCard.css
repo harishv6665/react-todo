@@ -1,12 +1,13 @@
 .card {
     height: 50px;
     width: calc(100% - 40px);
-    margin: auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
     border-radius: 3px;
     border: 1px solid rgba(241, 241, 241, 0.85);
-    box-shadow: 0px 1px 10px 0px rgba(204, 204, 204, 0.35);
-    padding: 14px 20px;
+    box-shadow: 0 1px 10px 0 rgba(204, 204, 204, 0.35);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
 }
 
 .card.completed {
@@ -21,10 +22,39 @@
     font-size: 15px;
     color: #696f71;
     margin-left: 12px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .card.completed .card__title {
     text-decoration: line-through;
     font-style: italic;
     opacity: 0.4;
+}
+
+.card__deleteBtn {
+    border: 0;
+    background: none;
+    float: right;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    color: #9E9E9E;
+    outline: none;
+}
+
+.card__deleteBtn:hover {
+    color: red;
+}
+
+.card__deleteBtn:after {
+    content: '+';
+    font-size: 26px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -6px;
+    left: 5px;
+    color: inherit;
 }
