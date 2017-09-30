@@ -37,7 +37,7 @@ export default class TodoContainer extends React.Component {
 
         return (
             <div className={styles.wrapper}>
-                <h2 className={styles.title}>Todo Application</h2>
+                <h2 className={styles.title}>Todo Application <span className={styles.subTitle}>{`(${completeness || 0}%)`}</span></h2>
                 <div className={styles.progressBar}>
                     <div className={styles.progressBar__highlighter} style={{width: `${completeness || 0}%`}} />
                 </div>

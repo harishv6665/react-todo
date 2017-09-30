@@ -1,7 +1,7 @@
 const initialState = {
     todoItems: [
-        { id: 0, title: 'one', done: false },
-        { id: 1, title: 'Two', done: false },
+        { id: 0, title: 'Setup project', done: false },
+        { id: 1, title: 'Add ', done: false },
         { id: 2, title: 'Three', done: true },
         { id: 3, title: 'Four', done: false },
     ],
