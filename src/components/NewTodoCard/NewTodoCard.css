@@ -12,3 +12,8 @@
     color: #222;
     outline: 0;
 }
+
+input::placeholder {
+    color: rgba(34, 34, 34, 0.25);
+    padding-left: 5px;
+}
